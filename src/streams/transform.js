@@ -1,7 +1,4 @@
 import { Transform } from 'stream';
-import { fileURLToPath } from 'url'
-
-const __filename = fileURLToPath(import.meta.url);
 
 /**
  * Function that reads data from process.stdin, reverses text using Transform Stream and then
